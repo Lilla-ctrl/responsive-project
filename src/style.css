@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+.index-page
+h1,
+h2,
+h3,
+a {
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(../media/background.jpg);
+}
