@@ -9,7 +9,8 @@ body {
 h1,
 h2,
 h3,
-a {
+a,
+p {
   text-align: center;
   font-family: "Quicksand", sans-serif;
 }
@@ -23,6 +24,7 @@ a {
   color: #c7b198;
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
 }
 
 .hero-image {
@@ -51,6 +53,51 @@ a {
   margin: 0 auto;
   margin-top: 50px;
 } */
+
+h5 {
+  font-weight: 400;
+}
+
+.about h1,
+h2,
+h5,
+p,
+a {
+  text-align: left;
+  margin-left: 13px;
+}
+
+.about h2,
+h5 {
+  color: #596e79;
+}
+
+.about a {
+  background-color: #596e79;
+  color: #c7b198;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+}
+
+.about a:hover {
+  background-color: #c7b198;
+  color: #596e79;
+  font-weight: bold;
+}
+
+.camera-img {
+  max-width: 20%;
+}
+
+.my-camera {
+  width: 300px;
+  background-color: #c7b198;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #596e79;
+}
 
 .gallery-row {
   display: flex;
