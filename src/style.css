@@ -23,6 +23,11 @@ a {
   font-weight: bolder;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #c7b198;
+  font-size: 20px;
+}
+
 .about h1,
 h2,
 h5,
@@ -51,7 +56,7 @@ h5 {
 }
 
 .about-p {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 27px;
 }
 
@@ -87,6 +92,11 @@ h5 {
   font-size: 17px;
   font-weight: bolder;
   color: #596e79;
+}
+
+.gallery h1 {
+  color: #596e79;
+  font-weight: bold;
 }
 
 .gallery-row {
