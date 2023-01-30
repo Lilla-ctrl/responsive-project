@@ -34,7 +34,13 @@ body {
 
 @media (max-width: 500px) {
   .hero {
-    background-color: var(--background-color);
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .hero-small {
+    display: none;
   }
 }
 
@@ -47,6 +53,11 @@ body {
 .hero h1 {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.hero-small h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .hero a {
